@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 class EventsPage extends StatelessWidget {
   final List<String> events = [
     'Earth Day Celebration',

@@ -1,4 +1,6 @@
+import 'package:flutter/material.dart';
 class SharePage extends StatelessWidget {
+
   void _showShareDialog(BuildContext context) {
     showDialog(
       context: context,

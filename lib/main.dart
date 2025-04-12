@@ -172,35 +172,94 @@ class FeatureListPage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => CommunitiesPage()), // Navigate to CommunitiesPage
+                  MaterialPageRoute(builder: (context) => CommunitiesPage()),
                 );
               },
             ),
             FeatureCard(
-              title: 'Share Tips and Success Stories',
-              description: 'Share valuable tips, tricks and success stories related to sustainable living.',
+              title: 'Share Tips & Success Stories',
+              description: 'Share tips and success stories about living sustainably.',
               icon: Icons.lightbulb_outline,
               image: 'assets/tips.jpg',
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => TipsPage()), // Navigate to TipsPage
+                  MaterialPageRoute(builder: (context) => TipsPage()),
                 );
               },
             ),
             FeatureCard(
               title: 'My Achievements',
-              description: 'Celebrate sustainability milestones.',
+              description: 'Celebrate your sustainability milestones and badges!',
               icon: Icons.star,
               image: 'assets/achievements.jpg',
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => AchievementsPage()), // Navigate to AchievementsPage
+                  MaterialPageRoute(builder: (context) => AchievementsPage()),
                 );
               },
             ),
-            // Add other feature cards similarly for the other pages (Events, Carbon Footprint, Share, etc.)
+            FeatureCard(
+              title: 'Carbon Footprint Tracker',
+              description: 'Track your carbon footprint and stay eco-aware.',
+              icon: Icons.bar_chart,
+              image: 'assets/carbon_footprint.jpg',
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CarbonFootprintPage()),
+                );
+              },
+            ),
+            FeatureCard(
+              title: 'Share Your Progress',
+              description: 'Generate and customize a shareable summary of your green journey.',
+              icon: Icons.share,
+              image: 'assets/sharing.jpg',
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SharePage()),
+                );
+              },
+            ),
+            FeatureCard(
+              title: 'Eco Shop',
+              description: 'Discover and redeem points for eco-friendly products.',
+              icon: Icons.shopping_cart,
+              image: 'assets/shopping.jpg',
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ShopPage()),
+                );
+              },
+            ),
+            FeatureCard(
+              title: 'Sustainable Events',
+              description: 'Find local clean-up drives, workshops, and green events.',
+              icon: Icons.event,
+              image: 'assets/events.jpg',
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => EventsPage()),
+                );
+              },
+            ),
+            FeatureCard(
+              title: 'Achievement Gallery',
+              description: 'Visual display of badges, trophies, and achievements.',
+              icon: Icons.emoji_events,
+              image: 'assets/achievements.jpg',
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => AchievementImagePage()),
+                );
+              },
+            ),
           ],
         ),
       ),
@@ -215,6 +274,7 @@ class FeatureCard extends StatelessWidget {
   final String description;
   final IconData icon;
   final String image;
+  final VoidCallback onTap;
 
   const FeatureCard({
     Key? key,
@@ -222,42 +282,49 @@ class FeatureCard extends StatelessWidget {
     required this.description,
     required this.icon,
     required this.image,
+    required this.onTap,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      elevation: 5,
-      margin: EdgeInsets.all(10),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Image.asset(
-            image,
-            fit: BoxFit.cover,
-            height: 200,
-          ),
-          Padding(
-            padding: EdgeInsets.all(15),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Icon(icon, size: 40, color: Colors.green),
-                SizedBox(height: 10),
-                Text(
-                  title,
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                SizedBox(height: 5),
-                Text(description),
-              ],
+    return InkWell(
+      onTap: onTap,
+      child: Card(
+        elevation: 5,
+        margin: EdgeInsets.all(10),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Image.asset(
+              image,
+              fit: BoxFit.cover,
+              height: 200,
             ),
-          ),
-        ],
+            Padding(
+              padding: EdgeInsets.all(15),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(icon, size: 40, color: Colors.green),
+                  SizedBox(height: 10),
+                  Text(
+                    title,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(height: 5),
+                  Text(description),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
+
+
+

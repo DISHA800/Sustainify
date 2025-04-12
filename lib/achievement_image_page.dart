@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 class AchievementsPage extends StatelessWidget {
   final List<String> achievements = [
     'Reduced carbon footprint by 10%',

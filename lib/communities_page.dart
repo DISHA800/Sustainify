@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 class CommunitiesPage extends StatelessWidget {
   final List<String> communities = [
     'Eco Warriors',

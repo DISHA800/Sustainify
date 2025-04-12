@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class ShopPage extends StatelessWidget {
   final List<String> products = [
     'Reusable Water Bottle',

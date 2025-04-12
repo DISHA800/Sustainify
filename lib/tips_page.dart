@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class TipsPage extends StatelessWidget {
   final List<String> tips = [
     'Use reusable bags instead of plastic.',

@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 class AchievementImagePage extends StatelessWidget {
   final List<String> images = [
     'assets/achievement1.jpg', // Example image paths
