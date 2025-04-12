@@ -17,7 +17,14 @@ A mobile app built with Flutter to help users engage in sustainable living pract
 
 ## Screenshots
 
-Include screenshots or images of your app here.
+![WhatsApp Image 2025-04-12 at 23 55 46_de145d83](https://github.com/user-attachments/assets/803097db-d78f-42bd-b1dd-e4a616cfe857)
+
+![WhatsApp Image 2025-04-12 at 23 55 47_a7647b9a](https://github.com/user-attachments/assets/cfc77ac5-d77d-4c85-bc36-82a623bf2a18)
+
+![WhatsApp Image 2025-04-12 at 23 55 48_c36b5513](https://github.com/user-attachments/assets/4c0a3fcd-90d1-4728-933e-63bc7bd25c17)
+
+
+
 
 ## Installation
 
