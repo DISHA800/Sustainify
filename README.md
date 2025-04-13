@@ -10,6 +10,12 @@
   <img src="https://img.shields.io/badge/Made%20with-%F0%9F%92%9A%20by%20Nature-blue?style=for-the-badge"/> -->
 </p>
 
+<p align="center">
+  🌐 <strong>Check out the live version here:</strong><br><br>
+  <a href="https://sustainifycommunity.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-%23A3D977?style=for-the-badge&logo=leaflet&logoColor=white" alt="Live Demo">
+  </a>
+</p>
 ---
 
 ## 🌍 Overview
