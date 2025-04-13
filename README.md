@@ -16,7 +16,6 @@
     <img src="https://img.shields.io/badge/Live%20Demo-%23A3D977?style=for-the-badge&logo=leaflet&logoColor=white" alt="Live Demo">
   </a>
 </p>
----
 
 ## 🌍 Overview
 
