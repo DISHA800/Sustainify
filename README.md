@@ -13,7 +13,7 @@
 
 ## 🌍 Overview
 
-**Sustainify** is a clean, modern Flutter app designed to engage users in **sustainable living practices**. It promotes daily green habits and community engagement through a gamified interface. Whether you're new to eco-living or already a green warrior 🌿 — Sustainify supports your journey.
+**Sustainify** is a clean, modern app designed to engage users in **sustainable living practices**. It promotes daily green habits and community engagement through a gamified interface. Whether you're new to eco-living or already a green warrior 🌿 — Sustainify supports your journey.
 
 ---
 
