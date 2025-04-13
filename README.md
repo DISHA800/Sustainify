@@ -40,8 +40,6 @@
   <img src="https://github.com/user-attachments/assets/4c0a3fcd-90d1-4728-933e-63bc7bd25c17" width="300" />
 </p>
 
-> *Built with clean UI design principles and sustainability at the core.*
-
 ---
 
 ## 🚀 Getting Started
