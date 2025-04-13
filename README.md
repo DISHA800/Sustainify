@@ -5,12 +5,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"/>
-<!--   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%92%9A%20by%20Nature-blue?style=for-the-badge"/> -->
-</p>
-
-<p align="center">
   🌐 <strong>Check out the live version here:</strong><br><br>
   <a href="https://sustainifycommunity.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Live%20Demo-%23A3D977?style=for-the-badge&logo=leaflet&logoColor=white" alt="Live Demo">
